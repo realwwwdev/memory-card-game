@@ -90,7 +90,7 @@ function shuffleCard() {
     card.addEventListener('click', flipCard);
 
     let imgTag = card.querySelector('img');
-    imgTag.src = `../images/${arr[index]}.png`;
+    imgTag.src = `../memory-card-game/images/${arr[index]}.png`;
   });
 }
 shuffleCard();
