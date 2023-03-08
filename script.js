@@ -50,7 +50,7 @@ function matchCards(img1, img2) {
       //     console.log('You win!');
       //   }, 1200); //calling shuffleCard function after 1s
       setTimeout(() => {
-        return window.location.assign('/end.html');
+        return window.location.assign('../memory-card-game/end.html');
       }, 1200);
     }
 
