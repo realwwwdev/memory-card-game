@@ -197,7 +197,7 @@ input {
   box-shadow: 0 0.1rem 1.4rem 0 rgba(86, 185, 235, 0.5);
 }
 
-@media (max-width: 415px) {
+@media only screen and (max-width: 415px) {
   .container {
     width: 400px;
     height: 400px;
